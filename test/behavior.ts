@@ -1,11 +1,11 @@
 'use strict';
-const expect = require('chai').expect;
-// const debounce = require('../dist/lib/behavior.js').debounce;
-// import { expect } from 'chai';
-// import {
-//     debounce,
-//     throttle
-// } from '../lib/index'
+// const expect = require('chai').expect;
+// const debounce = require('../dist/index.js').debounce;
+import { expect } from 'chai';
+import {
+    debounce,
+    throttle
+} from '../lib/index'
 
 // class BehaviorTesting {
 //     // behaviorCount = 0
