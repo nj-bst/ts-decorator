@@ -1,8 +1,14 @@
 {
   "name": "bst-ts-decorator",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "create npm package with typescript",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "module": "dist/lib/index.js",
+  "typings": "dist/lib/index.d.ts",
+  "files": [
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "mocha test/**/*.ts"
@@ -24,10 +30,9 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
-    "typescript": "^3.1.6"
-  },
-  "dependencies": {
+    "typescript": "^3.1.6",
     "@types/node": "^10.12.2",
     "chai": "^4.2.0"
-  }
+  },
+  "dependencies": {}
 }

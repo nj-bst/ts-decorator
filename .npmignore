@@ -1,6 +1,5 @@
 node_modules
-
 *.log
-
-test/tmp
 test
+lib/
+dist/test

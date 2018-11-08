@@ -10,7 +10,7 @@ const debounce = require('../lib/behavior').debounce;
 
 class BehaviorTesting {
     public behaviorCount = 0
-    @debounce()
+    // @debounce()
     CountPlus() {
         this.behaviorCount++
     }
